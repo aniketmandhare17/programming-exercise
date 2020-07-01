@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pyramids1", "pyramids1\pyramids1.csproj", "{33533F36-0224-46A8-AA41-7B79FE50CFDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33533F36-0224-46A8-AA41-7B79FE50CFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33533F36-0224-46A8-AA41-7B79FE50CFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33533F36-0224-46A8-AA41-7B79FE50CFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33533F36-0224-46A8-AA41-7B79FE50CFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D02C76D2-D79C-4228-94B1-CB22AE149B5D}
+	EndGlobalSection
+EndGlobal
