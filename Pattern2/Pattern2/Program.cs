@@ -10,26 +10,26 @@ namespace Pattern2
     {
         static void Main(string[] args)
         {
-            int i,j,rows,k=0;
+            int i,j,rows;
             Console.WriteLine("enter num of rows:");
             rows=Convert.ToInt32(Console .ReadLine());
-              for(i=1;i<=rows;++i,k=0)
+              for(i=0;i<rows;i++)
             {
-                for (j = 1; j <= rows - i;++j)
+                for (j = 1; j <= rows - i;j++)
                 {
                     Console.WriteLine(" ");
           
                 }
-                while(k!=2*i-1)
+                for(j=1;j<=2*i-1;j++)
                 {
-                    Console.WriteLine("*");
-                    ++k;
+                    Console.WriteLine("* ");
 
+                   /* Console.WriteLine("\n");*/
                 }
-                Console.ReadLine();
+                
             }
-            
 
+            Console.ReadLine();
         }
     }
 }
