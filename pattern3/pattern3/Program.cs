@@ -21,12 +21,13 @@ namespace pattern3
                 {
                     Console.Write(" ");
                 }
-                for(j=1;j<=i;j++)
+                for (j = 1; j <= i; j++)
                 {
                     Console.Write("*");
                 }
-                Console.Write("\n");
-                s--;
+                    Console.Write("\n");
+                    s--;
+               
             }
             Console.ReadLine();
         }

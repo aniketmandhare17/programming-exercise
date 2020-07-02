@@ -11,21 +11,22 @@ namespace Pattern2
         static void Main(string[] args)
         {
             int i,j,rows;
+          
+           
             Console.WriteLine("enter num of rows:");
             rows=Convert.ToInt32(Console .ReadLine());
-              for(i=0;i<rows;i++)
+              for(i=1;i<=rows;i++)
             {
-                for (j = 1; j <= rows - i;j++)
+                for (j = i; j <rows ;j++)
                 {
                     Console.WriteLine(" ");
           
                 }
-                for(j=1;j<=2*i-1;j++)
+                for (rows = 1; rows <( i*2); rows++)
                 {
-                    Console.WriteLine("* ");
-
-                   /* Console.WriteLine("\n");*/
+                    Console.Write("* ");
                 }
+                Console.WriteLine();
                 
             }
 
