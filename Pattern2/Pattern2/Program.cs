@@ -10,27 +10,53 @@ namespace Pattern2
     {
         static void Main(string[] args)
         {
-            int i,j,rows;
-          
-           
-            Console.WriteLine("enter num of rows:");
-            rows=Convert.ToInt32(Console .ReadLine());
-              for(i=1;i<=rows;i++)
+            int i, j, n;
+
+            
+
+            Console.Write("Input number of rows for this pattern :");
+            n = Convert.ToInt32(Console.ReadLine());
+            for (i = 1; i < n; i++)
             {
-                for (j = i; j <rows ;j++)
-                {
-                    Console.WriteLine(" ");
-          
-                }
-                for (rows = 1; rows <( i*2); rows++)
-                {
-                    Console.Write("* ");
-                }
-                Console.WriteLine();
+                for (j = 1; j <= n - i; j++)
+                    Console.Write(" ");
+                for (j = 1; j <= 2 * i - 1; j++)
+                    Console.Write("*");
                 
             }
-
             Console.ReadLine();
+
+
+            /*  int i, num, px, py;
+            int j;
+
+            Console.WriteLine("enter num of rows:");
+            num = Convert.ToInt32(Console.ReadLine());
+
+            px = num;
+            py = num;
+            for (i = 1; i <= num; i++)
+            {
+                for (j = 1; j < num * 2; j++)
+
+                {
+                    if (j >= px && j <= py)
+                    {
+                        Console.WriteLine("*");
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("");
+                    }
+                    px--;
+                    py++;
+                    
+                }
+                Console.ReadLine();
+            }*/
         }
+        
+
     }
 }
