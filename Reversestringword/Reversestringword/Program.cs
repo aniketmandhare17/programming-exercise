@@ -15,15 +15,22 @@ namespace Reversestringword
             Console.WriteLine("Enter the String Which u have Reversed:");
             string   s = (Console.ReadLine());
 
-            string[]  A = s.Split('.');
+           string[]  A = s.Split('.');
             string ans= "";
-            for (int i = s.Length - 1; i >= 0; i--)
+            for (int i = A.Length - 1; i >= 0; i--)
             {
-                ans += s[i] + "";
+                ans += A[i] + " ";
             }
             Console.Write("Reversed String is the:");
             Console.Write(ans);
             Console.ReadLine();
+
+           
+                    Console.ReadLine();
+               
+            
+
+
         }
      }
 }
